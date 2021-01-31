@@ -2,8 +2,12 @@
 section{
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 50%;
 }
+section img{
+    width: 40rem;
+}
+
 .social{
     display: flex;
     justify-content: center;
@@ -13,7 +17,23 @@ section{
     justify-content: center;
     color: #545454;
 }
-.social > img{
-   height:70px;
+.social img{
+   width: 50px;
    padding: 10px;
+}
+@media only screen and (min-width: 600px){
+    section{
+        margin-top: 30%;
+    }
+    section img{
+        width: 100%;
+    }
+    .social img{
+       width: 100px;
+       padding: 10px;
+    }
+    .content{
+        font-size: 25px;
+
+    }
 }

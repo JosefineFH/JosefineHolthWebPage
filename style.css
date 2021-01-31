@@ -1,8 +1,10 @@
-
+body{
+    width: 100%;
+}
 section{
     display: flex;
     justify-content: center;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 section img{
     width: 40rem;
@@ -21,15 +23,18 @@ section img{
    width: 50px;
    padding: 10px;
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
+    body{
+        width: 100%;
+    }
     section{
-        margin-top: 30%;
+        margin-top: 10%;
     }
     section img{
         width: 100%;
     }
     .social img{
-       width: 100px;
+       width: 100%;
        padding: 10px;
     }
     .content{

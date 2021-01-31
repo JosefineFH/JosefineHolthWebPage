@@ -1,0 +1,19 @@
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: grid;
+    justify-content: center;
+    color: #545454;
+}
+.social > img{
+   height:70px;
+   padding: 10px;
+}

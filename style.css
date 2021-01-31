@@ -7,7 +7,8 @@ section{
     margin-top: 40%;
 }
 section img{
-    width: 40rem;
+    width: auto;
+    margin: 0 30px ;
 }
 
 .social{
@@ -31,7 +32,7 @@ section img{
         margin-top: 10%;
     }
     section img{
-        width: 100%;
+        width: auto;
     }
     .social img{
        width: 100%;
